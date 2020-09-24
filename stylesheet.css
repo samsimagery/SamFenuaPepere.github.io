@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box
+}
+h1{
+    font-family: 'Aleo', serif;
+    text-align: center;
+
+}
+h2{
+    font-family: 'Aleo', serif;
+    text-align: center;
+    font-weight: 200; 
+    font-size: 15px; 
+max-width: 50vw;
+    margin: auto;
+    margin-bottom: 4vw
+}
+
+body {
+  margin: auto;
+  width: 100%;
+align-content: center;
+  padding: 10px
+}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {
+	display: none
+    
+}
+img {
+	vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+	max-width: 35vw;
+ font-family: 'Aleo', serif;
+position: relative;
+margin: auto;
+
+
+}
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -60px;
+	color: white;
+     font-family: 'Aleo', serif;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+	background-color: #f1f1f1;
+	color: black;
+}
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: .3s;
+	animation-name: fade;
+	animation-duration: .3s;
+}
+ @-webkit-keyframes fade {
+ from {
+opacity: .4
+}
+to {
+	opacity: 1
+}
+}
+ @keyframes fade {
+ from {
+opacity: .4
+}
+to {
+	opacity: 1
+}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next, .text {
+	font-size: 11px
+}
+}
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+	background-color: #717171;
+}
+.image {
+	height:100px;
+	background:white;
+    text-align: center;
+}
+.img1 {
+	background:white;
+}
+.img2 {
+	background:white
+}
+.img3 {
+	background:white
+}
+
+.signature{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15vw;
+}    
+.p{
+    text-align: center;
+    margin: auto;
+    font-size: 10px
+}
+/* CSS FOR SMALL SCREENS */
+@media only screen and (max-width: 800px) {
+
+img {
+	vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+	max-width: 90vw;
+ font-family: 'Aleo', serif;
+position: relative;
+margin: auto;
+    }
+/* CSS FOR HUGE SCREENS */
+@media only screen and (min-width: 1200px) {
+
+img {
+	vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+	max-width: 20vw;
+ font-family: 'Aleo', serif;
+position: relative;
+margin: auto;
+    }
