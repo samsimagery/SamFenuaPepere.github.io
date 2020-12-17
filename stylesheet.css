@@ -17,6 +17,24 @@ h2{
 
 
 }
+.center {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+}
+h6{
+    font-family: 'Quicksand', serif;
+    text-align: left;
+    font-weight: 300;
+		font-size: 20px;
+		margin: 25px 200px;
+
+}
 
 body {
   margin: auto;
@@ -128,7 +146,13 @@ to {
 .img3 {
 
 }
+h8{
+    font-family: 'Quicksand', serif;
+    text-align: center;
+    font-weight: 300;
 
+
+}
 .signature{
   display: block;
   margin-left: auto;
